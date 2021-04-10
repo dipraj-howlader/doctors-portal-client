@@ -1,10 +1,15 @@
 import React from 'react';
 import NavvBarr from '../NavvBarr/NavvBarr';
+import HeaderMain from "../HeaderMain/HeaderMain";
+import './Header.css'
+import BusinessInfo from '../BusinessInfo/BusinessInfo';
 
 const Header = () => {
     return (
-        <div>
+        <div className="headerContainer">
            <NavvBarr></NavvBarr>
+           <HeaderMain></HeaderMain>
+           <BusinessInfo></BusinessInfo>
         </div>
     );
 };
