@@ -1,5 +1,5 @@
 import React from 'react';
-import NavvBarr from '../NavvBarr/NavvBarr';
+import NavvBarr from '../../Shared/NavvBarr/NavvBarr';
 import HeaderMain from "../HeaderMain/HeaderMain";
 import './Header.css'
 import BusinessInfo from '../BusinessInfo/BusinessInfo';
