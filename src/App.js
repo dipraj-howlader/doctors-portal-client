@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +13,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path ="/home">
+        <Route path ="/home">
+          <Home></Home>
+        </Route>
+        <Route exact path ="/">
         <Home></Home>
         </Route>
         <Route path ="/appointment">

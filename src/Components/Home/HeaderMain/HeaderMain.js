@@ -2,7 +2,8 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import chairImg from '../../../images/chair.png';
 import Image from 'react-bootstrap/Image'
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+
 const HeaderMain = () => {
     return (
         <main style={{height:'600px',display:'flex',alignItems:'center'}}>
@@ -13,7 +14,7 @@ const HeaderMain = () => {
             <br/>
             <p style={{color:'gray'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto deserunt nisi a explicabo, quos optio.</p>
             <br/>
-            <Button variant="primary">GET APPOINTMENT</Button>
+            <Button variant="primary" href="/appointment">GET APPOINTMENT</Button>
         </div>
     </Col>
     <Col md={6}><Image src={chairImg} fluid/> </Col>
